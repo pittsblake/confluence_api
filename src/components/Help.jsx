@@ -23,7 +23,7 @@ class Help extends Component {
             headers: {
                 'Accept': 'application/json',
                 'Content-Type': 'application/json',
-                'Authorization': 'Basic' + process.env.REACT_APP_API_KEY,
+                'Authorization': 'Basic ' + process.env.REACT_APP_API_KEY,
                 'Access-Control-Allow-Origin': '*',
                 'Access-Control-Allow-Methods': 'GET',
                 'Access-Control-Allow-Headers': 'Origin, Content-Type, X-Auth-Token',
